@@ -1,0 +1,115 @@
+.page{
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    
+    background-color: rgb(48, 45, 45);
+    color: white;
+    /* max-width: 1280px; */
+    min-width: 320px;
+    margin: 0 auto;
+    padding: 28px 0 24px;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.grad{
+    border: 1px solid red;
+}
+
+.header{
+    margin-left: 48px;
+    margin-right: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between  ;
+    
+    
+}
+.header__title{
+    font-size: 96px;
+    height: 200px;
+    width: 720px;
+    margin-top: 128px;
+    
+    text-align: center;
+
+}
+
+.header__subtitle{
+    height: 72px;
+    width: 640px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.header__logo{
+    position: absolute;
+    left: 48px;
+    top:28px;
+    
+    
+    
+    @media screen and (max-width: 1280px) {
+    
+    }
+    @media screen and (max-width: 1024px) {
+        
+    }
+    @media screen and (min-width: 768px) {
+        
+    }
+
+}
+
+.header__links{
+    display: flex;
+    text-decoration: none;
+    
+    margin-left: auto;
+
+}
+
+.header__link{
+    display: flex;
+
+}
+.header__link-text{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+.header__link-text:hover{
+    text-decoration: underline;
+    opacity: 80%;
+    transition: opacity 0.2s ease;
+}
+
+
+.header__image{
+    margin-top: 60px;
+    margin-bottom: 92px;
+    width:  968px;
+    height: 615px;
+    background-size: cover;
+    background-image: url(images/lead-polka.jpg);
+
+}
+
+.info{
+
+}
+
+.info__title{
+
+}
+
+.info__subtitle{
+
+}
+.info__statistic{
+
+}
+
+
+
