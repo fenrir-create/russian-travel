@@ -6,7 +6,6 @@
     margin: 0 auto;
     padding-top: 28px;
     
-    
     @media screen and (max-width: 1280px) {
     
     }
@@ -17,11 +16,14 @@
         
     }
 }
+.sgrad{
+    border: 1px solid blue;
+}
 
 .grad{
     border: 1px solid red;
 }
-.link{
+.header{
     margin-left: 48px;
     margin-right: 48px;
     display: flex;
@@ -31,17 +33,17 @@
     
     }
     @media screen and (max-width: 1024px) {
+        margin-left: 24px;
+        margin-right: 24px;
         
     }
     @media screen and (max-width: 768px) {
+        margin-left: 16px;
+        margin-right: 16px;
         
     }
 
 }
-
-
-
-
 .header__logo{
     left: 48px;
     top:28px;
@@ -59,8 +61,8 @@
         height: 42px;
         
     }
-
 }
+
 .header__logo-pic{
     max-width: 100%;
     max-height: 100%
@@ -78,8 +80,6 @@
 
 .header__link{
     display: flex;
-    
-
 }
 .header__link-text{
     text-decoration: none;
@@ -102,18 +102,32 @@
     transition: opacity 0.2s ease;
 }
 
-.header{
-    margin-left: 48px;
-    margin-right: 48px;
+/* ----------------------------- */
+
+.welcome{
+    margin-left: 148px;
+    margin-right: 148px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between  ;
-    width: 984px;
-    height: 1005px;
+    @media screen and (max-width: 1280px) {
+        margin-left: 48px;
+        margin-right: 48px;
+    
+    }
+    @media screen and (max-width: 1024px) {
+        margin-left: 0;
+        margin-right: 0;
+        
+    }
+    @media screen and (max-width: 768px) {
+        margin-left: 0;
+        margin-right: 0;
+        
+    }
     
 }
-.header__title{
+.welcom__title{
     font-size: 96px;
     height: 200px;
     width: 720px;
@@ -135,7 +149,7 @@
 
 }
 
-.header__subtitle{
+.welcome__subtitle{
     height: 72px;
     width: 640px;
     font-size: 30px;
@@ -153,40 +167,37 @@
         height: 40px;
         margin-top: 16px;
 
-        
     }
 }
 
 
-.header__image{
+.welcome__image{
     margin-top: 60px;
-    margin-bottom: 92px;
-    width:  984px;
-    height: 615px;
+    display: flex;
+    flex-direction: column;
     @media screen and (max-width: 1280px) {
-        width: 928px;
-        height: 580px;
-    
+        margin-left: 0;
+        margin-right: 0;
     }
     @media screen and (max-width: 1024px) {
-        width: 768px;
-        height: 480px;
-        
+        margin-left: 0;
+        margin-right: 0;
+    
     }
     @media screen and (max-width: 768px) {
-        width: 320px;
-        height: 200px;
+        margin-left: 0;
+        margin-right: 0;
         margin-top: 39px;
         
     }
 }
 
-.header__image-pic{
+.welcome__image-pic{
     max-width: 100%;
     max-height: 100%;
     
 }
-.header__image-text{
+.welcome__image-text{
     font-size: 10px;
 
 }
@@ -195,26 +206,79 @@
 
 
 .info{
-    margin-left: 48px;
-    margin-right: 48px;
+    margin-top: 92px;
+    margin-left: 148px;
+    margin-right: 442px;
     display: flex;
     flex-direction: column;
+    @media screen and (max-width: 1280px) {
+        margin-left: 48px;
+        margin-right: 284px;
+    
+    }
+    @media screen and (max-width: 1024px) {
+        margin-left: 24px;
+        margin-right: 24px;
+        
+    }
+    @media screen and (max-width: 768px) {
+        margin-left: 16px;
+        margin-right: 16px;
+        
+    }
 
 }
 
 .info__title{
     font-size: 54px;
+    margin-bottom: 40px;
+    @media screen and (max-width: 1280px) {
+       
+    }
+    @media screen and (max-width: 1024px) {
+        
+    
+    }
+    @media screen and (max-width: 768px) {
+        font-size: 32px;
+    }
 
 }
 
 .info__subtitle{
     font-size: 16px;
+    margin-bottom: 33px;
+    @media screen and (max-width: 1280px) {
+       
+    }
+    @media screen and (max-width: 1024px) {
+        
+    
+    }
+    @media screen and (max-width: 768px) {
+        
+    }
 
 }
 .info__statistic{
     font-size: 12px;
+    @media screen and (max-width: 1280px) {
+       
+    }
+    @media screen and (max-width: 1024px) {
+        
+    
+    }
+    @media screen and (max-width: 768px) {
+        
+    }
 
 }
+
+/* ----------------------------- */
+/* ----------------------------- */
+/* ----------------------------- */
+/* ----------------------------- */
 
 
 
