@@ -129,17 +129,24 @@
 }
 .welcom__title{
     font-size: 96px;
-    height: 200px;
-    width: 720px;
+    /* height: 200px;
+    width: 720px; */
+    margin-left: 280px;
+    margin-right: 280px;
     text-align: center;
     margin-top: 56px;
     @media screen and (max-width: 1280px) {
+        margin-left: 152px;
+        margin-right: 152px;
     
     }
     @media screen and (max-width: 1024px) {
-        
+        margin-left: 24px;
+        margin-right: 24px;
     }
     @media screen and (max-width: 768px) {
+        margin-left: 16px;
+        margin-right: 16px;
         font-size: 40px;
         width: 288px;
         height: 88px;
@@ -150,22 +157,29 @@
 }
 
 .welcome__subtitle{
-    height: 72px;
-    width: 640px;
+    /* height: 72px;
+    width: 640px; */
     font-size: 30px;
     text-align: center;
     margin-top: 32px;
+    margin-left: 320px;
+    margin-right: 320px;
     @media screen and (max-width: 1280px) {
+        margin-left: 192px;
+        margin-right: 192px;
     
     }
     @media screen and (max-width: 1024px) {
-        
+        margin-left: 62px;
+        margin-right: 62px;
     }
     @media screen and (max-width: 768px) {
         font-size: 16px;
         width: 288px;
         height: 40px;
         margin-top: 16px;
+        margin-left: 16px;
+        margin-right: 16px;
 
     }
 }
@@ -209,6 +223,7 @@
     margin-top: 92px;
     margin-left: 148px;
     margin-right: 442px;
+    margin-bottom: 92px;
     display: flex;
     flex-direction: column;
     @media screen and (max-width: 1280px) {
@@ -276,7 +291,59 @@
 }
 
 /* ----------------------------- */
+.card{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: repeat(3,auto);
+    margin-left: 48px;
+    margin-right: 48px;
+    gap: 10px;
+    margin-bottom: 92px;
+    @media screen and (max-width: 1280px) {
+        grid-template-columns: repeat(3,auto);
+        grid-template-rows: repeat(4,auto);
+       
+    }
+    @media screen and (max-width: 1024px) {
+        grid-template-columns: repeat(2,auto);
+        grid-template-rows: repeat(6,auto);
+    
+    }
+    @media screen and (max-width: 768px) {
+        grid-template-columns: repeat(1,auto);
+        grid-template-rows: repeat(12,auto);
+    }
+
+}
+
+.card__element-pic{
+    width: 100%;
+    height: 100%;
+}
+
 /* ----------------------------- */
+.places{
+
+}
+.places__title{
+
+}
+
+.places__link{
+
+}
+.places__image{
+
+}
+.places__image-pic{
+    
+}
+
+.places__text{
+
+}
+
+
 /* ----------------------------- */
 /* ----------------------------- */
 
