@@ -1,0 +1,14 @@
+.cover__subtitle{
+    font-weight: normal;
+    font-size: 18px;
+    max-width: 360px;
+    text-align: center;
+    z-index: 2;
+  
+  
+  @media screen and (max-width: 560px) {
+      max-width: 288px;
+      font-size: 14px;
+    }
+
+}

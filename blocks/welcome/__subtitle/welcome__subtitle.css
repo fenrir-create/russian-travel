@@ -5,6 +5,7 @@
     text-align: center;
     margin-top: 32px;
     margin-left: 320px;
+    font-weight: normal;
     margin-right: 320px;
     @media screen and (max-width: 1280px) {
         margin-left: 192px;
