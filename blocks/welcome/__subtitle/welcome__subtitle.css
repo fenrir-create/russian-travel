@@ -1,0 +1,27 @@
+.welcome__subtitle{
+    /* height: 72px;
+    width: 640px; */
+    font-size: 30px;
+    text-align: center;
+    margin-top: 32px;
+    margin-left: 320px;
+    margin-right: 320px;
+    @media screen and (max-width: 1280px) {
+        margin-left: 192px;
+        margin-right: 192px;
+    
+    }
+    @media screen and (max-width: 1024px) {
+        margin-left: 62px;
+        margin-right: 62px;
+    }
+    @media screen and (max-width: 768px) {
+        font-size: 16px;
+        width: 288px;
+        height: 40px;
+        margin-top: 16px;
+        margin-left: 16px;
+        margin-right: 16px;
+
+    }
+}
